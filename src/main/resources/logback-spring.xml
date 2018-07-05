@@ -13,12 +13,12 @@
     <logger name="org.springframework.web" level="INFO" />
     <!-- 开发、测试环境 -->
     <springProfile name="test,dev,staging">
-        <logger name="com.renren.jinkong.kylin.wechatpush" level="DEBUG" />
+        <logger name="com.newcitysoft.wx" level="DEBUG" />
     </springProfile>
 
     <!-- 预生产、生产环境 -->
     <springProfile name="prod">
-        <logger name="com.renren.jinkong.kylin.wechatpush" level="INFO" />
+        <logger name="com.newcitysoft.wx" level="INFO" />
     </springProfile>
 
     <!-- Appender to log to console -->
